@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints "with proper grammar, but the outcome is a piece of art,"
- * return: 0 if exited properly, non 0 otherwise
+ * Return: 0 if exited properly, non 0 otherwise
  */
 int main(void)
 {

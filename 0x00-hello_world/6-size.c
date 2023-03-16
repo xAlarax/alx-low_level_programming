@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints te size of various types on the computer it is compiled and run on
+ * main - prints te size of various types
  * Return: 0 if exited properly, non 0 otherwise
  */
 int main(void)

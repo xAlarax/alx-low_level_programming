@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	char quote[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char art[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(2, quote, sizeof(quote) - 1);
+	write(2, art, sizeof(art) - 1);
 
 	return (1);
 }

@@ -1,1 +1,1 @@
-readme for funtions
+readme functions

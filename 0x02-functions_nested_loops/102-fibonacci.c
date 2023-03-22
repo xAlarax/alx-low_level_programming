@@ -5,18 +5,25 @@
  */
 int main(void)
 {
-	int fib1 = 1, fib2 = 2, temp;
-	int i;
+	long int i, j, k, next;
 
-	printf("%d, %d", fib1, fib2);
-	for (i = 3; i <= 50; i++)
+	j = 1;
+
+	k = 2;
+
+	for (i = 1; i <= 50; ++i)
 	{
-		temp = fib1 + fib2;
-		printf(", %d", temp);
-		fib1 = fib2;
-		fib2 = temp;
+		if (j != 20365011074)
+		{
+			printf("%ld, ", j);
+		} else
+		{
+			printf("%ld\n", j);
+		}
+		next = j + k;
+		j = k;
+		k = next;
 	}
-	printf("\n");
+
 	return (0);
 }
-

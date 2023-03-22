@@ -6,9 +6,10 @@
 int main(void)
 {
 	int fib1 = 1, fib2 = 2, temp;
+	int i;
 
 	printf("%d, %d", fib1, fib2);
-	for (int i = 3; i <= 50; i++)
+	for (i = 3; i <= 50; i++)
 	{
 		temp = fib1 + fib2;
 		printf(", %d", temp);

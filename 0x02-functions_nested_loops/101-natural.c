@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int sum = 0;
+	int i = 0;
 	unsigned long int sum;
 
 	for (i = 1; i < 1024; i++)

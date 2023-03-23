@@ -15,14 +15,17 @@ int main(void)
 		first = second;
 		second = next;
 		count++;
-		printf("%d", next);
-		if (count < 98)
+		if (next > 0)
 		{
-			printf(", ");
-		}
-		else
-		{
-			printf("\n");
+			printf("%d", next);
+			if (count < 98)
+			{
+				printf(", ");
+			}
+			else
+			{
+				printf("\n");
+			}
 		}
 	}
 

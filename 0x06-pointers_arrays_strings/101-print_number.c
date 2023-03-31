@@ -2,24 +2,24 @@
 /**
  * print_number - a function that print number
  * @n: variable input
- * Return: void nothing
+ * Return: void return nothing
  */
 void print_number(int n)
 {
-	unsigned int i;
+	unsigned int a;
 
-	if (i < 0)
+	if (n < 0)
 	{
-		i = -n;
+		a = -n;
 		_putchar('-');
 	}
 	else
 	{
-		i = n;
+		a = n;
 	}
 
-	if (i / 10)
-		print_number(i / 10);
+	if (a / 10)
+		print_number(a / 10);
 
-	_putchar((i % 10) + '0');
+	_putchar((a % 10) + '0');
 }

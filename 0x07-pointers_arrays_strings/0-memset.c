@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * 0-memset.c - function that concanerates strings
+ * _memset - function that concanerates strings
  * @s: pointer variable
  * @b: variable
  * @n: size

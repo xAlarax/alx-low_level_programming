@@ -1,15 +1,13 @@
 #include "main.h"
-/*
- * _memset - function that concanerates strings
+/**
+ * _memset - function that fills memory with a constant byte
  * @s: pointer variable
  * @b: variable
  * @n: size
- * Return: s Always 
+ * Return: s Always
  */
-char *_memset(char *s, char b, unsigned int n){
-	char *pS = s;
-	while (n-- > 0){
-		*pS++ = b;
-	}
+char *_memset(char *s, char b, unsigned int n)
+{
+	memset(s, b, n);
 	return (s);
 }

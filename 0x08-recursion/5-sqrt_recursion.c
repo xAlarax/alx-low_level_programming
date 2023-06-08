@@ -12,13 +12,11 @@ int _sqrt_recursion(int n)
  * _sqrt - second function
  * @n: the same number
  * @m: the variable
- *Return: the square root
+ * Return: the square root
  */
 int _sqrt(int n, int m)
 {
-	if (n < 0)
-		return (-1);
-	else if (m * m > n)
+	if (n < 0 || m * m > n)
 		return (-1);
 	else if (m * m == n)
 		return (m);

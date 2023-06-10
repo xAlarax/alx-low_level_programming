@@ -11,7 +11,8 @@ int main(int argc, char *argv[])
 {
 	int x = atoi(argv[1]);
 	int y = atoi(argv[2]);
-	if (argc == 0)
+
+	if (argc < 2)
 	{
 		printf("Error\n");
 		return (1);

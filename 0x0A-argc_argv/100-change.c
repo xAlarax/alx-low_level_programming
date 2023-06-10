@@ -8,30 +8,32 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, n = 0;
+	int m;
+	int i = 0;
+	int j = 0;
+	int cent[] = {25, 10, 5, 2, 1};
 
 	if (argc == 1 || argc > 2)
 	{
 		printf("Error/n");
 		return (1);
 	}
-
-	i = atoi(argv[1]);
-
-	while (i > 0)
+		if (atoi(argv[1]) < 0)
+		printf("0\n");
+	else
 	{
-		if (i >= 25)
-			i -= 25;
-		else if (i >= 10)
-			i -= 10;
-		else if (i >= 5)
-			i -= 5;
-		else if (i >= 2)
-			i -= 2;
-		else if (i >= 1)
-			i -= 1;
-		n += 1;
+		m = atoi(argv[1]);
+
+		while (m > 0)
+		{
+			while (m >= cent[i])
+			{
+				m -= cent[i];
+				j++;
+			}
+			i++;
+		}
+		printf("%d\n", j);
 	}
-	printf("%d\n", n);
 	return (0);
 }

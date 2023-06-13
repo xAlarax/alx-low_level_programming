@@ -1,1 +1,1 @@
-malloc why is hard :( 
+# C - malloc, free

@@ -16,9 +16,9 @@ void print_all(const char * const format, ...)
 
 	if (format)
 	{
-		while(format[x])
+		while (format[x])
 		{
-			switch(format[x])
+			switch (format[x])
 			{
 				case 's':
 					str = va_arg(var, char*);

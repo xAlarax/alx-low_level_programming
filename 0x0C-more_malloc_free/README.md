@@ -1,1 +1,1 @@
-taban
+memory allocation

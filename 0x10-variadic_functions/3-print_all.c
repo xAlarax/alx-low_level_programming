@@ -36,7 +36,8 @@ void print_all(const char * const format, ...)
 					printf("%s%c", comma, va_arg(var, int));
 					break;
 				default:
-					break;
+					x++;
+					continue;
 			}
 			comma = ", ";
 			x++;

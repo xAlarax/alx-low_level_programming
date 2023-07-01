@@ -10,9 +10,13 @@ int num = 0;
 while (h)
 {
 if (!h->str)
+{
 printf("[0] (nil)\n");
+}
 else
+{
 printf("[%d] %s\n", h->len, h->str);
+}
 h = h->next;
 num++;
 }

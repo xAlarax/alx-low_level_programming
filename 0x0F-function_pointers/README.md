@@ -1,1 +1,0 @@
-fiya ikti2ab
